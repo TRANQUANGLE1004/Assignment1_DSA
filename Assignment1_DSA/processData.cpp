@@ -490,7 +490,7 @@ bool processRequest(VRequest& request, L1List<VRecord>& recList, void* pGData) {
 				distance = distanceTemp;
 				strcpy(_id, temp->data.id);
 			}
-			temp = temp->pNext;
+			temp = temp->pNext;//dadasd
 		}
 		cout << _headerString << _idString << ": " << _id << endl;
 	}
